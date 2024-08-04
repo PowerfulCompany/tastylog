@@ -44,4 +44,4 @@ jobs:
           role-to-assume: ${{secrets.AWS_IAM_ROLE_ARN}}
       - name: Terraform init
         run: |
-          terraform init -no-color
+          aws s3 ls s3://miyabe-learn/tastylog-tfstate
