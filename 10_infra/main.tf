@@ -23,9 +23,6 @@ terraform {
 provider "aws" {
   profile = "terraform"
   region  = "ap-northeast-1"
-  assume_role {
-    role_arn = var.aws_role_arn
-  }
 }
 
 provider "aws" {
