@@ -7,7 +7,7 @@ on:
     paths:
       - 10_infra/**
       - .github/workflows/**
-  wokflow_dispatch:
+  worflow_dispatch:
 
 permissions:
   id-token: write
