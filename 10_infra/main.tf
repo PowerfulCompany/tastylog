@@ -13,7 +13,7 @@ terraform {
     bucket  = "miyabe-learn"
     key     = "tastylog-tfstate"
     region  = "ap-northeast-1"
-    # profile = "terraform"
+    profile = "terraform"
   }
 }
 
