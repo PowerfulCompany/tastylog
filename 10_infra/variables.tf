@@ -21,8 +21,3 @@ variable "password" {
   type      = string
   sensitive = true
 }
-
-variable "aws_role_arn" {
-  type      = string
-  sensitive = true
-}
